@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first: MyString
+  first: MyText
+  last: MyString
+  last: MyText
+  birth: MyString
+  birth: MyText
+  description: MyString
+  description: MyText
+  gender: MyString
+  gender: MyText
+  blood: MyString
+  blood: MyText
+  hospital_id: 
+
+two:
+  first: MyString
+  first: MyText
+  last: MyString
+  last: MyText
+  birth: MyString
+  birth: MyText
+  description: MyString
+  description: MyText
+  gender: MyString
+  gender: MyText
+  blood: MyString
+  blood: MyText
+  hospital_id: 

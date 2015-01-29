@@ -1,0 +1,13 @@
+<h3>Patient List</h3>
+<%= link_to "Root", root_path %>
+<%= link_to "New Patient", new_patient_path %>
+<ul>
+  <% @patients.each do |patient| %>
+  <lis>
+    <%= patient.first %>
+    <%= link_to "Edit", edit_patient_path(patient) %>
+    |
+    <%= link_to "Delete", patient_path(patient), method: :delete %>
+  </li>
+  <% end %>
+</ul>
